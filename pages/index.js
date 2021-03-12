@@ -7,7 +7,7 @@ function Home({user}){
     return (        
         <div>
             <Head>
-                <title>Home {user}</title>
+                <title>{user}</title>
             </Head>
             <BarraComponent />
             
@@ -19,7 +19,7 @@ function Home({user}){
 
 
 Home.getInitialProps=()=>{
-   return {user: "layane"}
+   return {user: "Layane Andréia"}
 }
 
 export default Home;

@@ -1,5 +1,3 @@
-
-
 const customStyles = {
     content : {
       top                   : '50%',
@@ -16,6 +14,4 @@ function ModalComponent() {
     
 }
 
-export default ModalComponent(){
-    
-}
+export default ModalComponent()
